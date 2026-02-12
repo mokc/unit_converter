@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#hero {
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+    color: #FFFFFF;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3D3D3D;
+    width: 117px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+}
+
+#conversions-container {
+    width: 550px;
+    height: 444px;
+    background-color: #F4F4F4;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 109px;
+    margin: 23px auto 23px auto;
+    background-color: #FFFFFF;
+    color: #5A537B;
+    font-size: 20px;
+}
+
+.data h2 {
+    margin:0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.data p {
+    font-weight: 400;
+    font-size: 14px;
+}
